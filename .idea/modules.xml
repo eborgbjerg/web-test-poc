@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webtestpoc.iml" filepath="$PROJECT_DIR$/.idea/modules/webtestpoc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webtestpoc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/webtestpoc_main.iml" group="webtestpoc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webtestpoc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/webtestpoc_test.iml" group="webtestpoc" />
+    </modules>
+  </component>
+</project>

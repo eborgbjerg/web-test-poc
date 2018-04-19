@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.eborgbjerg.webtestpoc.OpenWebPageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-19T18:10:55" hostname="ejner-GGS-Petit-Deluxe" time="2.76">
+  <properties/>
+  <testcase name="openDatabase" classname="com.github.eborgbjerg.webtestpoc.OpenWebPageTest" time="2.76"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1524161455897	geckodriver	INFO	geckodriver 0.19.0
+1524161455900	geckodriver	INFO	Listening on 127.0.0.1:31529
+1524161456096	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.sQH32x0i8uOP"
+1524161456442	Marionette	INFO	Enabled via --marionette
+1524161457250	Marionette	INFO	Listening on port 44067
+1524161457300	Marionette	WARN	TLS certificate errors will be ignored for this session
+Apr 19, 2018 8:10:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1524161458336	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+[Child 17923, Chrome_ChildThread] WARNING: pipe error (21): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 17923, Chrome_ChildThread] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 17923, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+]]></system-err>
+</testsuite>

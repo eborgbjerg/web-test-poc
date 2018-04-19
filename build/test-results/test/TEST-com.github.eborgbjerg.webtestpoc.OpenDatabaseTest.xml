@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.eborgbjerg.webtestpoc.OpenDatabaseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-19T18:09:53" hostname="ejner-GGS-Petit-Deluxe" time="2.92">
+  <properties/>
+  <testcase name="openDatabase" classname="com.github.eborgbjerg.webtestpoc.OpenDatabaseTest" time="2.92"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1524161393653	geckodriver	INFO	geckodriver 0.19.0
+1524161393656	geckodriver	INFO	Listening on 127.0.0.1:7357
+1524161393851	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.y2LXhZn6MFYu"
+1524161394194	Marionette	INFO	Enabled via --marionette
+1524161394966	Marionette	INFO	Listening on port 37194
+1524161395056	Marionette	WARN	TLS certificate errors will be ignored for this session
+Apr 19, 2018 8:09:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Child 17619, Chrome_ChildThread] WARNING: pipe error (24): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 17619, Chrome_ChildThread] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 17619, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+]]></system-err>
+</testsuite>
