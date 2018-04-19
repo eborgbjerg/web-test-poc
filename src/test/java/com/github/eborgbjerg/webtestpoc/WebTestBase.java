@@ -24,6 +24,7 @@ abstract public class WebTestBase {
 
 
     static void initResources() {
+       System.setProperty("webdriver.gecko.driver", "/home/ejner/bin");
     }
 
 
